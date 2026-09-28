@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="TeamData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/teams/team_data.gd" id="1_td"]
+
+[resource]
+script = ExtResource("1_td")
+team_name = "Golden Eagles"
+short_name = "GLD"
+primary = Color(0.95, 0.75, 0.1, 1)
+secondary = Color(0.1, 0.1, 0.12, 1)
+logo_shape = 3
+attack = 78
+midfield = 72
+defense = 72
+goalkeeper = 80
+formation = "4-2-3-1"

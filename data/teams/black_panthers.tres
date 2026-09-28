@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="TeamData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/teams/team_data.gd" id="1_td"]
+
+[resource]
+script = ExtResource("1_td")
+team_name = "Black Panthers"
+short_name = "BLK"
+primary = Color(0.1, 0.1, 0.13, 1)
+secondary = Color(0.75, 0.75, 0.82, 1)
+logo_shape = 1
+attack = 84
+midfield = 70
+defense = 68
+goalkeeper = 68
+formation = "4-3-3"

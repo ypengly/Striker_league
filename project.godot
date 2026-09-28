@@ -1,0 +1,39 @@
+; Engine configuration file.
+config_version=5
+
+[application]
+
+config/name="Striker League"
+config/description="Arcade 2D top-down football game (Godot 4 / GDScript)"
+run/main_scene="res://scenes/main_menu/main_menu.tscn"
+config/features=PackedStringArray("4.3", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[autoload]
+
+SaveSystem="*res://scripts/systems/save_system.gd"
+GameState="*res://scripts/systems/game_state.gd"
+AudioManager="*res://scripts/systems/audio_manager.gd"
+Transition="*res://scripts/systems/transition.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=0
+
+[layer_names]
+
+2d_physics/layer_1="players"
+2d_physics/layer_2="ball"
+
+[physics]
+
+common/physics_ticks_per_second=60
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

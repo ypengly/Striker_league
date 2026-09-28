@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="TeamData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/teams/team_data.gd" id="1_td"]
+
+[resource]
+script = ExtResource("1_td")
+team_name = "Purple Stars"
+short_name = "PUR"
+primary = Color(0.55, 0.2, 0.8, 1)
+secondary = Color(0.95, 0.85, 0.3, 1)
+logo_shape = 3
+attack = 80
+midfield = 74
+defense = 66
+goalkeeper = 70
+formation = "3-5-2"

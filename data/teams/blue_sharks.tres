@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="TeamData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/teams/team_data.gd" id="1_td"]
+
+[resource]
+script = ExtResource("1_td")
+team_name = "Blue Sharks"
+short_name = "BLU"
+primary = Color(0.1, 0.4, 0.9, 1)
+secondary = Color(0.9, 0.95, 1.0, 1)
+logo_shape = 2
+attack = 76
+midfield = 80
+defense = 74
+goalkeeper = 70
+formation = "4-3-3"

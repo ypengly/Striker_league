@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="TeamData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/teams/team_data.gd" id="1_td"]
+
+[resource]
+script = ExtResource("1_td")
+team_name = "Red Lions"
+short_name = "RED"
+primary = Color(0.86, 0.12, 0.14, 1)
+secondary = Color(1, 1, 1, 1)
+logo_shape = 0
+attack = 82
+midfield = 74
+defense = 70
+goalkeeper = 72
+formation = "4-4-2"

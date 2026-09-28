@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="TeamData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/teams/team_data.gd" id="1_td"]
+
+[resource]
+script = ExtResource("1_td")
+team_name = "Green Warriors"
+short_name = "GRN"
+primary = Color(0.1, 0.58, 0.25, 1)
+secondary = Color(0.95, 0.95, 0.85, 1)
+logo_shape = 4
+attack = 70
+midfield = 76
+defense = 82
+goalkeeper = 74
+formation = "3-5-2"

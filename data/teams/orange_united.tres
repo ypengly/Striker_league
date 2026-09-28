@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="TeamData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/teams/team_data.gd" id="1_td"]
+
+[resource]
+script = ExtResource("1_td")
+team_name = "Orange United"
+short_name = "ORG"
+primary = Color(0.98, 0.5, 0.1, 1)
+secondary = Color(0.15, 0.15, 0.2, 1)
+logo_shape = 2
+attack = 74
+midfield = 78
+defense = 72
+goalkeeper = 72
+formation = "4-2-3-1"

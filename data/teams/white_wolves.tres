@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="TeamData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/teams/team_data.gd" id="1_td"]
+
+[resource]
+script = ExtResource("1_td")
+team_name = "White Wolves"
+short_name = "WHT"
+primary = Color(0.93, 0.95, 0.98, 1)
+secondary = Color(0.3, 0.4, 0.62, 1)
+logo_shape = 0
+attack = 72
+midfield = 72
+defense = 78
+goalkeeper = 78
+formation = "4-4-2"
